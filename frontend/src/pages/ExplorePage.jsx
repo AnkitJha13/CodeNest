@@ -59,6 +59,12 @@ const ExplorePage = () => {
 						className='h-11 sm:h-20 cursor-pointer'
 						onClick={() => exploreRepos("java")}
 					/>
+					<img
+						src='/react.svg'
+						alt='React logo'
+						className='h-11 sm:h-20 cursor-pointer'
+						onClick={() => exploreRepos("react")}
+					/>
 				</div>
 				{repos.length > 0 && (
 					<h2 className='text-lg font-semibold text-center my-4'>
