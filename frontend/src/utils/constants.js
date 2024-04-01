@@ -9,5 +9,4 @@ export const PROGRAMMING_LANGUAGES = {
 	Go: "/go.svg",
 	HTML: "/html.svg",
 	CSS: "/css.svg",
-	React: "/react.svg",
 };
