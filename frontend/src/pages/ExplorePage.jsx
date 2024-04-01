@@ -74,6 +74,24 @@ const ExplorePage = () => {
             className="h-11 sm:h-20 cursor-pointer"
             onClick={() => exploreRepos("typescript")}
           />
+          <img
+            src="/csharp.svg"
+            alt="C# logo"
+            className="h-11 sm:h-20 cursor-pointer"
+            onClick={() => exploreRepos("csharp")}
+          />
+          <img
+            src="/Go.svg"
+            alt="Go logo"
+            className="h-11 sm:h-20 cursor-pointer"
+            onClick={() => exploreRepos("go")}
+          />
+          <img
+            src="/Swift.svg"
+            alt="Swift logo"
+            className="h-11 sm:h-20 cursor-pointer"
+            onClick={() => exploreRepos("swift")}
+          />
         </div>
         {repos.length > 0 && (
           <h2 className="text-lg font-semibold text-center my-4">
